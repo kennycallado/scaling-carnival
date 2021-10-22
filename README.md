@@ -1,12 +1,20 @@
 ## Paso 1:
 
+Crear la imagen desde _Dockerfile_:
+
+``` bash
+docker build -t prueba .
+```
+
+## Paso 2:
+
 Levantar las imágenes.
 
 ``` bahs
 docker-compose up
 ```
 
-## Paso 2:
+## Paso 3:
 
 Entrar en phpmyadmin http://localhost:8080.
 
@@ -15,11 +23,11 @@ usuario: root
 password: toor
 ```
 
-## Paso 3:
+## Paso 4:
 
 Importar _init_db.sql_, esto creará una base de datos db_blog;
 
-## Paso 4:
+## Paso 5:
 
 Acceder a la aplicación: http://localhost/
 
