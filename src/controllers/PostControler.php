@@ -13,7 +13,6 @@ class PostController
 
   function index()
   {
-    echo "DEBUG: 2";
     $posts = $this->repository->all();
 
     require_once("views/postIndex.php");
