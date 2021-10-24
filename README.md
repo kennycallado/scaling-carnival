@@ -1,33 +1,31 @@
-## Paso 1:
+# PHP mvc_crud_mascotas DOCKER
 
-Crear la imagen desde _Dockerfile_:
+## Descripción:
 
-``` bash
-docker build -t prueba .
-```
+---
 
-## Paso 2:
+## Ejecución:
 
-Levantar las imágenes.
+### Paso 1:
+
+Lanzar docker-compose con la opción build
 
 ``` bahs
-docker-compose up
+docker-compose up --build
 ```
 
-## Paso 3:
-
-Entrar en phpmyadmin http://localhost:8080.
-
-``` bash
-usuario: root
-password: toor
-```
-
-## Paso 4:
-
-Importar _init_db.sql_, esto creará una base de datos db_blog;
-
-## Paso 5:
+### Paso 2:
 
 Acceder a la aplicación: http://localhost/
 
+---
+
+## MyAdmin:
+
+Para acceder al administrador de la base de datos: http://localhost:8080/
+
+## Todo:
+
+[ ] Crear lógica de la aplicación
+[ ] Crear Crud
+[ ] Por alguna razón no funciona juego de caracteres utf8.
