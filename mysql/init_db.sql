@@ -1,4 +1,4 @@
-CREATE DATABASE db_blog;
+CREATE DATABASE db_blog CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 USE db_blog;
 
 CREATE TABLE t_user (
@@ -23,9 +23,9 @@ INSERT INTO t_user (email, password) VALUES
 ;
 
 INSERT INTO t_posts (user_id, title, content) VALUES
-  (1, "Título 1", "lorem lksajlkñ skldjf jsdl"),
-  (2, "Título 2", "lorem lksajlkñ skldjf jsdl"),
-  (1, "Título 3", "lorem lksajlkñ skldjf jsdl"),
-  (1, "Título 4", "lorem lksajlkñ skldjf jsdl"),
-  (2, "Título 5", "lorem lksajlkñ skldjf jsdl")
+  (1, "Title 1", "lorem lksajlk skldjf jsdl"),
+  (2, "Title 2", "lorem lksajlk skldjf jsdl"),
+  (1, "Title 3", "lorem lksajlk skldjf jsdl"),
+  (1, "Title 4", "lorem lksajlk skldjf jsdl"),
+  (2, "Title 5", "lorem lksajlk skldjf jsdl")
 ;
