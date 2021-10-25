@@ -13,13 +13,16 @@ class PostController
 
   function index()
   {
-    $posts = $this->repository->all();
+    $posts = $this->repository->getAll();
 
     require_once("views/postIndex.php");
   }
 
   function show(int $id)
   {
+    $post = $this->repository->getOne($id);
+
+    require_once("views/postDetails.php");
   }
 
   function store(object $values)
