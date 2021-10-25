@@ -2,10 +2,10 @@
 
 class Post
 {
-  private $id;
-  private $user_id;
-  private $title;
-  private $content;
+  public $id;
+  public $user_id;
+  public $title;
+  public $content;
 
   function __construct(int $id, int $user_id, string $title = "", string $content = "")
   {
