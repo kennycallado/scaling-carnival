@@ -1,4 +1,4 @@
-# PHP mvc_crud_mascotas DOCKER
+# PHP mvc_crud_posts DOCKER
 
 ## Descripción:
 
