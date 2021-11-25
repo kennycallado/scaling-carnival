@@ -26,6 +26,6 @@ Para acceder al administrador de la base de datos: http://localhost:8080/
 
 ## Todo:
 
-[ ] Crear lógica de la aplicación
-[ ] Crear Crud
-[ ] Por alguna razón no funciona juego de caracteres utf8.
+- [ ] Crear lógica de la aplicación
+- [ ] Crear Crud
+- [ ] Por alguna razón no funciona juego de caracteres utf8.
